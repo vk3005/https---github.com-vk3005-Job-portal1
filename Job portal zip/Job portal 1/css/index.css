@@ -1,0 +1,194 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #dbe2db;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #f7fffa;
+    padding: 10px 20px;
+}
+
+header ul li a:hover {
+    background-color: #555;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('/assets/nitro.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    background-color: #ff5a5f;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ff7a7f;
+}
+
+/* Featured Jobs */
+.featured-jobs {
+    background-color: #ebf4ea;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-jobs h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.job-listing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.job-item {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    width: 30%;
+}
+
+.job-item h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.job-item p {
+    margin: 5px 0;
+}
+
+.job-item .btn {
+    background-color: #ff5a5f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.job-item .btn:hover {
+    background-color: #ff7a7f;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #eee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.testimonial-item p {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/* Call-to-Action (Post a Job) */
+.post-job-cta {
+    background-color: #ff5a5f;
+    color: #f6fbf2;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.post-job-cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.post-job-cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.post-job-cta .btn {
+    background-color: #fff;
+    color: #ff5a5f;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.post-job-cta .btn:hover {
+    background-color: #ffe6e7;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}

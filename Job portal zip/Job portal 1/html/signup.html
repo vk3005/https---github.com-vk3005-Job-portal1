@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal - Sign Up</title>
+    <link rel="stylesheet" href="/css/sign up.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Job Portal</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="job.html">Jobs</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="signup-form">
+        <h2>Create Account</h2>
+        <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="role">Select Your Role:</label>
+            <select id="role" name="role">
+                <option value="job_seeker">Job Seeker</option>
+                <option value="employer">Employer</option>
+                <option value="Un employee">Employer</option>
+                <option value="employer">other</option>
+            </select>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Job Portal</p>
+    </footer>
+</body>
+</html>
